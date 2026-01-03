@@ -1,0 +1,32 @@
+{
+  "name": "secure-digital-wallet",
+  "version": "0.1.0",
+  "description": "Multi-platform secure digital wallet with cryptographic key management and transaction handling",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "packages/backend",
+    "packages/core"
+  ],
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "clean": "lerna clean --yes",
+    "bootstrap": "lerna bootstrap"
+  },
+  "keywords": [
+    "wallet",
+    "digital",
+    "payment",
+    "crypto",
+    "security"
+  ],
+  "author": "subashsa1014",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  }
+}
